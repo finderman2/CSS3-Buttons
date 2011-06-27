@@ -1,20 +1,45 @@
+/*  General Reset*/
+html, body, div, span,h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, dl, dt, dd, ol, ul, li,
+fieldset, form, label, caption,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/*HTML5 display-role reset for older browsers*/
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
 /* Page specific
 ------------------------------------------------------------------------------*/
 body {
   background: #4A525A;
   color: #333;
-  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-family: "helvetica neue", Helvetica, Arial, sans-serif;
 }
 
 div.container {
   margin: 40px auto;
-  width: 960px;
+  width: 50%;
 }
 
 a {
-  color: #B2B3BA;
+  color: rgb(245, 245, 245);
   font-weight: bold;
   text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+	color: rgba(151, 167, 183, 1);
 }
 
 h1 {
@@ -32,7 +57,7 @@ p {
   margin: 0 0 12px 0;
 }
 
-p.credit {
+footer {
   border-top: 1px dashed #a7a7a7;
   font-size: 14px;
   margin: 36px 0 12px 0;
@@ -60,7 +85,7 @@ p.credit {
 ul.column {
   float: left;
   list-style: none;
-  width: 675px;
+  width: 90%;
 }
 
 ul.column li {
@@ -81,17 +106,11 @@ button {
 }
 
 
-/* Clear Floated Elements
-------------------------------------------------------------------------------*/
-.column:after,
-.button-collection:after,
-.clearfix:after {
-  clear: both;
-  content: ' ';
-  display: block;
-  font-size: 0;
-  line-height: 0;
-  visibility: hidden;
-  width: 0;
-  height: 0;
+/*Clearfix*/
+.group:after {
+	content:".";
+	display: block;
+	height:0;
+	clear:both;
+	visibility:hidden;
 }
