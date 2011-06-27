@@ -1,0 +1,97 @@
+/* Page specific
+------------------------------------------------------------------------------*/
+body {
+  background: #4A525A;
+  color: #333;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+}
+
+div.container {
+  margin: 40px auto;
+  width: 960px;
+}
+
+a {
+  color: #B2B3BA;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: 300;
+  margin: 24px 0 12px 0;
+}
+
+p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 140%;
+  margin: 0 0 12px 0;
+}
+
+p.credit {
+  border-top: 1px dashed #a7a7a7;
+  font-size: 14px;
+  margin: 36px 0 12px 0;
+  padding: 6px 0 0 0;
+}
+
+
+.button-collection {
+  border-top: 1px dashed #a7a7a7;
+  margin: 24px 0 36px 0;
+  padding: 4px 0 12px 0;
+}
+
+.button-info {
+  float: left;
+  margin: 0 40px 0 0;
+  width: 245px;
+}
+
+
+.button-info p {
+  font-size: 14px;
+}
+
+ul.column {
+  float: left;
+  list-style: none;
+  width: 675px;
+}
+
+ul.column li {
+  background: #BDB9BE;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  float: left;
+  margin: 10px 0 0 10px;
+  display: block;
+  height: 150px;
+  text-align: center;
+  width: 215px;
+}
+
+button {
+  margin-top: 60px;
+}
+
+
+/* Clear Floated Elements
+------------------------------------------------------------------------------*/
+.column:after,
+.button-collection:after,
+.clearfix:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}

@@ -1,0 +1,128 @@
+/*Copyright (c) 2011-2012 Liam O'Brien
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+	
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON
+INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT
+OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+
+/*Button Styles*/
+
+#mobilemelight {
+/*Text*/
+color: #000000;
+font-family: "lucida grande", sans-serif;
+font-size: 11px;
+font-weight: normal;
+line-height: 1;
+padding: 3px 0 5px 0;
+text-align: center;
+text-shadow: 0 1px 1px #ffffff;
+/*Gradients*/
+background: #fefefe; /* old browsers */
+background: -moz-linear-gradient(top, #fefefe 0%, #e3e3e3 50%, #d8d8d8 51%, #e5e5e5 100%); /* firefox */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(50%,#e3e3e3), color-stop(51%,#d8d8d8), color-stop(100%,#e5e5e5)); /* webkit */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e5e5e5',GradientType=0 ); /* ie */
+background: -o-linear-gradient(top, #fefefe 0%,#e3e3e3 50%,#d8d8d8 51%,#e5e5e5 100%); /* opera */
+-moz-border-radius: 16px;
+-webkit-border-radius: 16px;
+border-radius: 16px;
+width: 112px;
+/*Box Shadows & Border Radius*/
+-webkit-box-shadow:inset 0 1px 0 0 rgba(255, 255, 255 1);
+-moz-box-shadow:inset 0 1px 0 0 rgba(255, 255, 255 1);
+box-shadow:inset 0 1px 0 0 rgba(255, 255, 255 1);
+border: 1px solid #DBDBDB;
+cursor: pointer;
+}
+
+
+#mobilemedark {
+-webkit-box-shadow:inset 0 1px 0 0 rgba(255, 255, 255 1);
+-moz-box-shadow:inset 0 1px 0 0 rgba(255, 255, 255 1);
+box-shadow:inset 0 1px 0 0 rgba(255, 255, 255 1);
+/*Text*/
+color: #000000;
+font-family: "lucida grande", sans-serif;
+font-size: 11px;
+font-weight: normal;
+line-height: 1;
+padding: 3px 0 5px 0;
+text-align: center;
+text-shadow: 0 1px 1px rgba(255, 255, 255, 0.6);
+/*Gradients*/
+background: #b8c4d1; /* old browsers */
+background: -moz-linear-gradient(top, #b8c4d1 0%, #bbc5cf 23%, #b5bfc9 50%, #929fb0 51%, #899aaf 77%, #8292a1 100%); /* firefox */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b8c4d1), color-stop(23%,#bbc5cf), color-stop(50%,#b5bfc9), color-stop(51%,#929fb0), color-stop(77%,#899aaf), color-stop(100%,#8292a1)); /* webkit */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8c4d1', endColorstr='#8292a1',GradientType=0 ); /* ie */
+background: -o-linear-gradient(top, #b8c4d1 0%,#bbc5cf 23%,#b5bfc9 50%,#929fb0 51%,#899aaf 77%,#8292a1 100%); /* opera */
+/*Box Shadows & Border Radius*/
+-moz-border-radius: 16px;
+-webkit-border-radius: 16px;
+border-radius: 16px;
+width: 112px;
+border: 1px solid #8697A9;
+cursor: pointer;
+}
+
+#safarilight {
+/*Text*/
+color: #ffffff;
+font-family: "lucida grande", sans-serif;
+font-size: 11px;
+font-weight: normal;
+line-height: 1;
+padding: 3px 0 5px 0;
+text-align: center;
+text-shadow: 0 -1px 1px #000000;
+/*Gradients*/
+background: #84899E; /* old browsers */
+background: -moz-linear-gradient(top, #84899E 0%, #515466 50%, #373A49 51%, #84899E 100%); /* firefox */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#84899E), color-stop(50%,#515466), color-stop(51%,#373A49), color-stop(100%,#84899E)); /* webkit */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#84899E', endColorstr='#84899E',GradientType=0 ); /* ie */
+background: -o-linear-gradient(top, #84899E 0%,#515466 50%,#373A49 51%,#84899E 100%); /* opera */
+-moz-border-radius: 16px;
+-webkit-border-radius: 16px;
+border-radius: 16px;
+width: 112px;
+/*Box Shadows & Border Radius*/
+-moz-box-shadow: inset 0 1px 0 0 rgba(117, 121, 140, 0.21);
+-webkit-box-shadow: inset 0 1px 0 0 rgba(117, 121, 140, 0.21);
+box-shadow: inset 0 1px 0 0 rgba(117, 121, 140, 0.21);
+border: 1px solid rgba(255, 255, 255, 0.11);
+cursor: pointer;
+}
+
+#safaridark {
+/*Text*/
+color: #fff;
+font-family: "lucida grande", sans-serif;
+font-size: 11px;
+font-weight: normal;
+line-height: 1;
+padding: 3px 0 5px 0;
+text-align: center;
+text-shadow: 0 -1px 1px #000000;
+/*Gradients*/
+background: #595C72; /* old browsers */
+background: -moz-linear-gradient(top, #595C72 0%, #292A2D 50%, #101114 51%, #595C72 100%); /* firefox */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#595C72), color-stop(50%,#292A2D), color-stop(51%,#101114), color-stop(100%,#595C72)); /* webkit */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#595C72', endColorstr='#595C72',GradientType=0 ); /* ie */
+background: -o-linear-gradient(top, #595C72 0%,#292A2D 50%,#101114 51%,#595C72 100%); /* opera */
+/*Box Shadows & Border Radius*/
+-moz-border-radius: 16px;
+-webkit-border-radius: 16px;
+border-radius: 16px;
+width: 112px;
+-moz-box-shadow: inset 0 1px 0 0 rgba(164, 171, 197, 0.31);
+-webkit-box-shadow:inset 0 1px 0 0 rgba(164, 171, 197, 0.31);
+box-shadow: inset 0 1px 0 0 rgba(164, 171, 197, 0.31);
+border: 1px solid rgba(43, 44, 51, 0.4);
+cursor: pointer;
+
+}
