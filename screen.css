@@ -83,7 +83,7 @@ footer {
 }
 
 ul.column {
-  float: left;
+  margin: 0 auto;
   list-style: none;
   width: 90%;
 }
@@ -94,7 +94,7 @@ ul.column li {
   -webkit-border-radius: 5px;
   border-radius: 5px;
   float: left;
-  margin: 10px 0 0 10px;
+  margin: 10px 10px 0;
   display: block;
   height: 150px;
   text-align: center;
