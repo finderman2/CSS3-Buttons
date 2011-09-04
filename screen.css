@@ -21,41 +21,33 @@ footer, header, hgroup, menu, nav, section {
 /* Page specific
 ------------------------------------------------------------------------------*/
 body {
-  background: #4A525A;
-  color: #333;
+  background: #e7e7e7;
+  color: #444;
   font-family: "helvetica neue", Helvetica, Arial, sans-serif;
 }
 
-div.container {
+.container {
   margin: 40px auto;
   width: 50%;
 }
 
 a {
-  color: rgb(245, 245, 245);
+  color: #666;
   font-weight: bold;
   text-decoration: none;
   -webkit-transition: all 0.3s ease-in-out;
 }
 
 a:hover {
-	color: rgba(151, 167, 183, 1);
+	color: #999;
 }
 
 h1 {
-  color: #ffffff;
   font-size: 38px;
   font-weight: 300;
   margin: 24px 0 12px 0;
 }
 
-p {
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 140%;
-  margin: 0 0 12px 0;
-}
 
 footer {
   border-top: 1px dashed #a7a7a7;
@@ -89,7 +81,7 @@ ul.column {
 }
 
 ul.column li {
-  background: #BDB9BE;
+  background: #f6f6f6;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -101,8 +93,9 @@ ul.column li {
   width: 215px;
 }
 
-button {
-  margin-top: 60px;
+li a.button {
+  position:relative;
+  top: 60px;
 }
 
 
