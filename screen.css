@@ -1,10 +1,8 @@
 /*  General Reset*/
 html, body, div, span,h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code, del, dfn, em, img, dl, dt, dd, ol, ul, li,
-fieldset, form, label, caption,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
+abbr, address, cite, code, del, em, img, dl, dt, dd, ol, ul, li,
+fieldset, form, label, caption, article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -13,41 +11,30 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/*HTML5 display-role reset for older browsers*/
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
 /* Page specific
 ------------------------------------------------------------------------------*/
 body {
-  background: #e7e7e7;
+  max-width: 980px;
+  margin: 40px auto;
+  background: url(bg.gif);
   color: #444;
   font-family: "helvetica neue", Helvetica, Arial, sans-serif;
 }
 
-.container {
-  margin: 40px auto;
-  width: 50%;
+.main {
+    background: #f5f5f5;
+    border-radius: 5px;
+    padding: 2em;
+    box-shadow: 0px 2px 4px rgba(0,0,0, .2);
 }
 
 a {
-  color: #666;
+  color: #555;
   font-weight: bold;
   text-decoration: none;
-  -webkit-transition: all 0.3s ease-in-out;
 }
 
-a:hover {
-	color: #999;
-}
-
-h1 {
-  font-size: 38px;
-  font-weight: 300;
-  margin: 24px 0 12px 0;
-}
-
+a:hover {color: #888;}
 
 footer {
   border-top: 1px dashed #a7a7a7;
@@ -81,7 +68,7 @@ ul.column {
 }
 
 ul.column li {
-  background: #f6f6f6;
+  background: #ddd;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -98,6 +85,10 @@ li a.button {
   top: 60px;
 }
 
+/*for the demo only*/
+.btn {
+    margin-top: 4em;
+}
 
 /*Clearfix*/
 .group:after {
