@@ -18,7 +18,7 @@ body {
   margin: 40px auto;
   background: url(bg.gif);
   color: #444;
-  font-family: "helvetica neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .main {
@@ -28,19 +28,23 @@ body {
     box-shadow: 0px 2px 4px rgba(0,0,0, .2);
 }
 
+h1 {
+    font: bold 2em "Proxima Nova", "Helvetica Neue", Helvetica, sans-serif;
+}
+
 a {
   color: #555;
   font-weight: bold;
   text-decoration: none;
 }
 
-a:hover {color: #888;}
+a:hover, a:focus {color: #888;}
 
 footer {
   border-top: 1px dashed #a7a7a7;
   font-size: 14px;
   margin: 36px 0 12px 0;
-  padding: 6px 0 0 0;
+  padding: .5em 0;
 }
 
 
@@ -53,7 +57,6 @@ footer {
 .button-info {
   float: left;
   margin: 0 40px 0 0;
-  width: 245px;
 }
 
 
@@ -62,9 +65,7 @@ footer {
 }
 
 ul.column {
-  margin: 0 auto;
   list-style: none;
-  width: 90%;
 }
 
 ul.column li {
